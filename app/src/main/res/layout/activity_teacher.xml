@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teacher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.mvchomework.Teacher"
+    android:background="#003171"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please enter your username and password dear teacher"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/teacher_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:hint="UserName *"
+        android:textColorHint="#89C4F4"
+        android:textSize="14sp"
+        />
+    <EditText
+        android:id="@+id/teacher_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:hint="PassWord *"
+        android:textColorHint="#89C4F4"
+        android:textSize="14sp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F22613"
+        android:textColor="#fff"
+        android:text="LOGIN"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTE :
+UserName is : teacher
+PassWord IS : teacher"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f39c12"
+    tools:context="com.example.hp.mvchomework.MainActivity"
+    android:layout_centerInParent="true"
+    >
+
+  <Button
+      android:id="@+id/teacher_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Teacher"
+      android:textColor="#000"
+      android:padding="15dp"
+      android:layout_centerInParent="true"
+
+      />
+  <Button
+      android:id="@+id/student_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Student"
+      android:textColor="#000"
+      android:padding="15dp"
+      android:layout_centerInParent="true"
+      android:layout_above="@id/teacher_btn"
+      />
+</RelativeLayout>
